@@ -4,9 +4,9 @@ Translate any locale with the directive provided or the service
 
 <br><br>
 
-[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/andreasnicolaou/locale-translator)
-[![npm](https://img.shields.io/npm/dt/andreasnicolaou/locale-translator.svg)](https://www.npmjs.com/package/andreasnicolaou/locale-translator)
-[![npm](https://img.shields.io/npm/dm/andreasnicolaou/locale-translator.svg)](https://www.npmjs.com/package/andreasnicolaou/locale-translator)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/@andreasnicolaou/locale-translator)
+[![npm](https://img.shields.io/npm/dt/andreasnicolaou/locale-translator.svg)](https://www.npmjs.com/@package/andreasnicolaou/locale-translator)
+[![npm](https://img.shields.io/npm/dm/andreasnicolaou/locale-translator.svg)](https://www.npmjs.com/@package/andreasnicolaou/locale-translator)
 
 <br><br>
 
