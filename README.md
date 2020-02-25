@@ -45,7 +45,7 @@ import { LocaleTranslationsService } from '@andreasnicolaou/locale-translator';
 export class MyService {
 
   constructor(private locale: LocaleTranslationsService) {
-
+    this.locale.updateLocale('en', { name: 'English', nativeName: 'Engish'})
     let locale: LangTrans  = this.locale.getLanguage('en');
     console.log(locale) // name,nativeName
 
