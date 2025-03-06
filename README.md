@@ -1,24 +1,17 @@
 # locale-translator
 
-Translate any locale with the directive provided or the service
-
-<br><br>
+Translate any locale with the provided directive or service.
 
 [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/@andreasnicolaou/locale-translator)
-[![npm](https://img.shields.io/npm/dt/andreasnicolaou/locale-translator.svg)](https://www.npmjs.com/package/@andreasnicolaou/locale-translator)
-[![npm](https://img.shields.io/npm/dm/andreasnicolaou/locale-translator.svg)](https://www.npmjs.com/package/@andreasnicolaou/locale-translator)
-
-<br><br>
+![GitHub package.json version](https://img.shields.io/github/package-json/v/andreasnicolaou/locale-translator)
 
 ## Installation
 
-#### 1. Install via NPM:
-
 ```shell
-npm i --save @andreasnicolaou/locale-translator
+npm install @andreasnicolaou/locale-translator
 ```
 
-#### 3. Import `LocaleTranslationsModule` into your app's root module
+#### Import `LocaleTranslationsModule` into your app's root module
 ```typescript
 
 import { LocaleTranslationsModule } from '@andreasnicolaou/locale-translator';
@@ -42,25 +35,23 @@ import { LocaleTranslationsService } from '@andreasnicolaou/locale-translator';
 
 ...
 
-export class MyService {
-
-  constructor(private locale: LocaleTranslationsService) {
-    this.locale.updateLocale('en', { name: 'English', nativeName: 'Engish'})
-    let locale: LangTrans  = this.locale.getLanguage('en');
-    console.log(locale) // name,nativeName
-
+export class MyComponent {
+  constructor(private readonly localeTranslationsService: LocaleTranslationsService) {
+    const locale: LangTrans = this.localeTranslationsService.getLanguage('en');
+    console.log(locale) // Logs out name and nativeName
   }
-
 }
 ```
-
-<br><br>
 
 ### Example of pipe
 
 #### Pipe will always return the locale name, if you want the native name just add translateLocale:true
 ```html
-    <a>{{'en' | translateLocale}}</a>
+    <div>{{ 'en' | translateLocale }}</div>
+```
+
+```html
+    <div>{{ 'en' | translateLocale:true }}</div>
 ```
 
 ## Contribution
