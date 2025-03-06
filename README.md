@@ -1,6 +1,6 @@
 # locale-translator
 
-Translate any locale with the provided directive or service.
+Translate any locale with the provided pipe or service.
 
 [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/@andreasnicolaou/locale-translator)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/andreasnicolaou/locale-translator)
