@@ -1,6 +1,6 @@
 {
   "name": "@andreasnicolaou/locale-translator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Locale Translation",
   "peerDependencies": {
     "@angular/common": "^18.2.8",
