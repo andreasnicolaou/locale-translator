@@ -14,12 +14,11 @@ import { LangTrans } from './models/lang.model';
   styles: []
 })
 export class LocaleTranslationsComponent implements OnInit {
-  public locale: LangTrans;
-  constructor(private langService: LocaleTranslationsService) { }
+  public locale!: LangTrans;
+  constructor(private readonly localeTranslationsService: LocaleTranslationsService) { }
 
   public ngOnInit() {
-    const localeName: LangTrans = this.langService.getLanguage('en');
-    this.locale = localeName;
+    this.locale = this.localeTranslationsService.getLanguage('en');
   }
 
 

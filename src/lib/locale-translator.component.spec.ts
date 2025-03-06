@@ -1,11 +1,11 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
 import { LocaleTranslationsComponent } from './locale-translator.component';
 
 describe('LocaleTranslationsComponent', () => {
   let component: LocaleTranslationsComponent;
   let fixture: ComponentFixture<LocaleTranslationsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ LocaleTranslationsComponent ]
     })
