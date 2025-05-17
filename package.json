@@ -1,10 +1,10 @@
 {
   "name": "@andreasnicolaou/locale-translator",
   "version": "1.1.1",
-  "description": "Locale Translation",
-  "peerDependencies": {
-    "@angular/common": "^18.2.8",
-    "@angular/core": "^18.2.8"
+  "description": "An Angular library for translating locale data and handling language-specific information.",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -13,20 +13,28 @@
   "bugs": {
     "url": "https://github.com/andreasnicolaou/locale-translator/issues"
   },
-  "homepage": "https://github.com/andreasnicolaou/locale-translator",
-  "license": "MIT",
-  "author": "Andreas Nicolaou",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "author": {
+    "name": "Andreas Nicolaou",
+    "email": "anicolaou66@gmail.com",
+    "url": "https://github.com/andreasnicolaou"
   },
-  "devDependencies": {
-    "@angular/common": "^18.2.8",
-    "@angular/core": "^18.2.8",
-    "tslib": "^2.5.0"
-  }
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": ">=14.0.0 <20.0.0",
+    "@angular/core": ">=14.0.0 <20.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/andreasnicolaou/locale-translator",
+  "keywords": [
+    "angular",
+    "ngx",
+    "locale",
+    "translator",
+    "internationalization",
+    "andreasnicolaou",
+    "@andreasnicolaou/locale-translator"
+  ]
 }
