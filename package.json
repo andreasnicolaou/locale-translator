@@ -34,7 +34,10 @@
     "locale",
     "translator",
     "internationalization",
-    "andreasnicolaou",
+    "i18n",
+    "pipe",
+    "service",
+    "angular-library",
     "@andreasnicolaou/locale-translator"
   ]
 }
